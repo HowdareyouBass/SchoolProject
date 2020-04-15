@@ -15,11 +15,20 @@ namespace SchoolY
         public Registration()
         {
             InitializeComponent();
+            Units.Hide();
         }
 
         private void Registration_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Registr_Click(object sender, EventArgs e)
+        {
+            if(Teacher.Checked == false && Pupil.Checked == false)
+            {
+
+            }
         }
     }
 }
